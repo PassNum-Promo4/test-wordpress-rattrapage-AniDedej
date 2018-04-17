@@ -1,0 +1,161 @@
+/*
+Theme Name: Custom Restaurant Theme
+Author: Antonio Dedej
+Template: wp-bootstrap-starter
+Description: 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wp-bootstrap-starter
+Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+*/
+
+body {
+    background-color: #F4F5F0 !important;
+}
+
+img {
+    border-radius: 2.5% !important;
+}
+
+.site-title {
+    color: #e2e1e4 !important;
+}
+
+.site-title:hover {
+    color: #F4F5F0 !important;
+}
+
+.prix-container,
+.gen-container {
+    text-align: center;
+}
+
+.card {
+    background-color: #F4F5F0;
+}
+
+.plat-title--center {
+    text-align: center;
+}
+
+.plat-title {
+    color: #D22F5C;
+}
+
+.plat-title:hover {
+    text-decoration: none;
+    color: #CB6995;
+}
+
+.prix-info,
+.gen-info {
+    font-style: italic;
+}
+
+.prix-info {
+    font-size: 1.15rem;
+}
+
+.prix-details {
+    color: #34b33a;
+    font-size: 1.25rem;
+}
+
+.prix-details,
+.gen-details {
+    font-weight: bold;
+}
+
+.ingredient-title {
+    font-style: italic;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-bottom: 2px solid #D22F5C;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.ingredient-info,
+.categorie-info {
+    color: gray;
+}
+
+.categorie-title {
+    font-style: italic;
+}
+
+a {}
+
+a.page-scroller:hover {
+    color: #D22F5C !important;
+}
+
+.site-header {
+    background-color: #D22F5C !important;
+}
+
+.site-content {
+    background-color: #F3F2F2 !important;
+}
+
+.navbar-nav .menu-item .nav-link {
+    color: #29272E !important;
+}
+
+body:not(.theme-preset-active) #masthead .navbar-nav>li>a:hover,
+body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
+    color: #F3F2F2 !important;
+}
+
+.navbar-nav .menu-item .nav-link:hover {
+    color: #F3F2F2 !important;
+}
+
+.widget ul .nav-item a {
+    color: #5c829b !important;
+}
+
+.widget ul .nav-item a:hover {
+    color: #CB6995 !important;
+}
+
+.site-footer {
+    background-color: #2A2335 !important;
+}
+
+.credits {
+    color: #D22F5C !important;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.credits:hover {
+    color: #CB6995 !important;
+    text-decoration: none;
+}
+
+.credits-info {
+    color: #99979c !important;
+}
+
+.credits-info:hover {
+    color: #CB6995 !important;
+}
+
+#page-sub-header {
+    background-image: linear-gradient(rgba(210, 47, 92, 0.7), rgba(243, 242, 242, 1)), url("./img/subHeader.jpg") !important;
+    background-repeat: no-repeat !important;
+}
+
+#page-sub-header h1 {
+    font-size: 3rem !important;
+    color: #F3F2F2 !important;
+}
+
+#page-sub-header p {
+    font-size: 1.35rem !important;
+    color: #29272E !important;
+    font-style: italic;
+}
